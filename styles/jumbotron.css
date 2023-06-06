@@ -1,0 +1,50 @@
+section{
+    padding: 5% 10%;
+}
+.jumbotron{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/hero.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+
+}
+.jumbotron_texto h4{
+    font-size: 18px;
+    padding: 0px 15px ;
+    color: nav(--clr-dark);
+    text-align: left;
+}
+.jumbotron_texto h1{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    color: var(--clr-darkrose);
+    padding: 0px 15px ;
+    text-align: left;
+}
+
+.jumbotron_texto p{
+font-size: 15px;
+padding: 0px 15px ;
+color: nav(--clr-dark);
+text-align: left;
+}
+
+.jumbotron_texto form {
+    max-width: 40rem;
+    padding-top: 40px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    gap:10px
+}
+ #email{
+    border: 1px solid var(--clr-darkrose);
+    width: 500px;
+    height: 40px;
+    padding-right: 0.5em;
+ }
+

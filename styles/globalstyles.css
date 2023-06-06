@@ -28,3 +28,7 @@
 .btn:hover {
     transform: translateY(1px);
 }
+
+.strong{
+    color: nav(--clr-darkrose);
+}
