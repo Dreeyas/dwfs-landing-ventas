@@ -1,0 +1,30 @@
+:root {
+    --clr-dark: #030712;
+    --clr-light: #fff5ff;
+    --clr-mediumlight: #ffffffee;
+    --clr-lightrose: #ffb3d1;
+    --clr-darkrose: #cc0052;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Zodiak', serif, 'Dancing Script', cursive;
+    list-style: none;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background-color: var(--clr-darkrose);
+    color: var(--clr-light);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    transform: translateY(1px);
+}

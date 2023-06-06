@@ -1,0 +1,38 @@
+header {
+    padding: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--clr-light);
+    padding: 20px 10%;
+}
+
+.logo_landing img {
+    max-width: 200px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.navbar_menu {
+    display: flex;
+}
+
+.navbar_menu a {
+    color: var(--clr-dark);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    transition: color 0.3s;
+    transition: all 0.5s ease; 
+    cursor: pointer
+}
+
+.navbar_menu a:hover{
+    color: var(--clr-darkrose);
+    letter-spacing: 2px;
+}
