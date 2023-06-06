@@ -24,15 +24,42 @@ header {
 
 .navbar_menu a {
     color: var(--clr-dark);
-    text-decoration: none;
+    font-size: 20px;
     font-weight: 600;
+    text-transform: capitalize;
     letter-spacing: 0.03em;
     transition: color 0.3s;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
     cursor: pointer
 }
 
-.navbar_menu a:hover{
+.navbar_menu a:hover {
     color: var(--clr-darkrose);
     letter-spacing: 2px;
+}
+
+.icons_menu {
+    display: flex;
+    align-items: center;
+}
+
+.icons_menu i {
+    margin-right: 20px;
+    color: var(--clr-dark);
+    font-size: 25px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.icons_menu i:hover {
+    transform: scale(1.1);
+    color: var(--clr-darkrose);
+}
+
+#icon_menu{
+    color: var(--clr-dark);
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
 }
