@@ -1,0 +1,35 @@
+.contacto{
+    background-color: var(--clr-light);
+    padding-top: 20px;
+}
+.informacion_contacto{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 50px;
+
+}
+.informacion_contacto h3{
+    color: var(--clr-darkrose);
+    font-size: 30px;
+    margin-bottom: 14px;
+    font-family: 'Dancing Script', cursive;
+}
+.informacion_contacto a{
+    color: var(--clr-dark);
+    font-size: 15px;
+    font-family: 'Zodiak', serif;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 1em;
+    cursor: pointer;
+    transition: color 0.3s;
+    transition: all 0.5s ease;
+}
+.informacion_contacto a:hover {
+    color: var(--clr-darkrose);
+    letter-spacing: 2px;}
+
+.bloque1 img{
+    width: 150px;
+    height: auto;
+}
