@@ -1,3 +1,14 @@
+.beneficios {
+    background-color: var(--clr-light);
+
+}
+
+.card-tipo2 {
+    position: relative;
+    box-shadow: 0px 7px 10px rgba(255, 109, 167, 0.5s);
+    transition: 0.5s ease-in-out;
+}
+
 .bnf-titulo-principal h3 {
     color: var(--clr-darkrose);
     font-size: 50px;
@@ -6,8 +17,52 @@
     margin-bottom: 80px;
 }
 
+.bnf-explicacion {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Zodiak', serif, ;
+    margin-bottom: 80px;
+}
+
+.bnf-explicacion p {
+    font-weight: 500;
+}
+
+.botones-redes i {
+    margin-top: 30px;
+    margin-right: 20px;
+    color: var(--clr-darkrose);
+    font-size: 40px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
 .bnf_card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     gap: 32px;
+    background-color: #f5eafc;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.titulo-beneficio h4 {
+    color: var(--clr-darkrose);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.info-beneficio p{
+    color: var(--clr-dark);
+    font-size: 16px;
+    font-family:'Zodiak', serif;
+    text-align: center;
+    font-weight: 700;
+
 }

@@ -13,9 +13,7 @@ header {
 
 .logo_landing img {
     max-width: 200px;
-    height: 200px;
-    width: 200px;
-
+    height: auto;
 }
 
 .navbar_menu {
@@ -25,8 +23,8 @@ header {
 .navbar_menu a {
     color: var(--clr-dark);
     font-size: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
+    font-weight: 400;
+    padding: 10px 20px;
     transition: color 0.3s;
     transition: all 0.5s ease;
     cursor: pointer
