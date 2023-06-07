@@ -1,0 +1,13 @@
+.bnf-titulo-principal h3 {
+    color: var(--clr-darkrose);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 80px;
+}
+
+.bnf_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 32px;
+}
