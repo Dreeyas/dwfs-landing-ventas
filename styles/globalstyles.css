@@ -2,7 +2,7 @@
     --clr-dark: #030712;
     --clr-light: #fff5ff;
     --clr-mediumlight: #ffffffee;
-    --clr-lightrose: #ffb3d1;
+    --clr-lightrose: rgb(255, 179, 209);
     --clr-darkrose: #cc0052;
 }
 *{
