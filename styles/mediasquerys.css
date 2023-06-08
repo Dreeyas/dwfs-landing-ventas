@@ -1,8 +1,7 @@
-
 /*LAPTOP L LISTO, EXCEPTO POR LAS COLUMNAS*/
 @media(max-width:1440px) {
 
-    header{
+    header {
         padding: 20px 3%;
         transition: 0.4;
     }
@@ -13,7 +12,7 @@
         transform: 0.4s;
     }
 
-    section{
+    section {
         padding: 5% 5%;
     }
 
@@ -44,7 +43,7 @@
 /*LAPTOP NORMAL LISTA EXCEPTO POR LAS COLUMNAS*/
 @media (max-width:1024px) {
 
-    header{
+    header {
         padding: 20px 3%;
         transition: 0.4;
     }
@@ -55,7 +54,7 @@
         transform: 0.4s;
     }
 
-    section{
+    section {
         padding: 5% 5%;
     }
 
@@ -141,7 +140,7 @@
 }
 
 /*TELEFONO L LISTO EXCEPTO POR LA LINEA AL COSTADO*/
-@media(max-width:425px) {
+@media(max-width:480px) {
 
     header {
         padding: 20px 3%;
@@ -152,11 +151,11 @@
         display: none;
     }
 
-    section{
+    section {
         padding: 3% 3%;
     }
 
-    .jumbotron_texto{
+    .jumbotron_texto {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -219,11 +218,11 @@
         display: none;
     }
 
-    section{
+    section {
         padding: 3% 3%;
     }
 
-    .jumbotron_texto{
+    .jumbotron_texto {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -286,11 +285,11 @@
         display: none;
     }
 
-    section{
+    section {
         padding: 2% 2%;
     }
 
-    .jumbotron_texto{
+    .jumbotron_texto {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -340,4 +339,49 @@
         height: 40px;
         padding-right: 0.5em;
     }
+}
+
+@media(max-width:1024px) {
+
+    .jumbotron {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+
+    }
+
+    .jumbotron_texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jumbotron_texto h1 h4 p {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    section {
+        padding: 0%;
+    }
+
+    .jumbotron_texto form {
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    header {
+        padding: 0%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0%;
+    }
+
+
 }

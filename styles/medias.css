@@ -1,0 +1,143 @@
+@media screen and (max-width: 1000px) {
+
+    header {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+
+    }
+
+    .navbar_menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+
+    }
+
+
+    .navbar_menu a {
+        padding: 5%;
+
+    }
+
+    .navbar_menu {
+
+        flex-direction: column;
+
+    }
+
+    .jumbotron {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+
+    }
+
+    .jumbotron_texto {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(240, 248, 255, 0.514);
+    }
+
+    .jumbotron_texto h1 h4 p {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    section {
+        padding: 0%;
+    }
+
+    .jumbotron_texto form {
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    header {
+        padding: 0%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .jumbotron {
+        height: auto;
+        display: flex;
+        padding: 5%;
+    }
+
+    .jumbotron_texto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(240, 248, 255, 0.514);
+
+    }
+
+    .jumbotron_texto h4 {
+        font-size: 12px;
+        transition: .5s;
+        text-align: center;
+    }
+
+    .jumbotron_texto h1 {
+        font-size: 50px;
+        transition: .5s;
+    }
+
+    .navbar_menu a {
+        font-size: medium;
+
+    }
+
+
+    .jumbotron_texto p {
+        font-size: 10px;
+        transition: .5s;
+        text-align: center;
+    }
+
+    .jumbotron_texto form {
+        max-width: 40%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    header {
+        justify-content: space-around;
+
+
+    }
+
+    .logo_landing {
+        display: none;
+    }
+    .jumbotron{
+            width: auto;
+            height: auto;
+            background-image: url(../images/hero.png);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+        
+        } 
+    
+    }

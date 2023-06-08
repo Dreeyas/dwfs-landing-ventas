@@ -14,59 +14,86 @@
     <link rel="stylesheet" href="styles/catalogostyles.css">
     <link rel="stylesheet" href="styles/beneficiosstyle.css">
     <link rel="stylesheet" href="styles/footerstyles.css">
-    <link rel="stylesheet" href="styles/mediasquerys.css">
+    <link rel="stylesheet" href="styles/medias.css">
     <title>Vellichor&Co</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <ul class="navbar_menu">
+        <div class="navbar_menu">
+            <ul>
                 <li><a href="#home">INICIO</a></li>
                 <li><a href="#aboutus">NOSOTROS</a></li>
                 <li><a href="#bestseller">CATALOGO</a></li>
 
             </ul>
         </div>
-        <div>
-            <a href="#" class="logo_landing"><img src="images/logo.png"></a>
+        <div class="logo_landing">
+            <a href="#" ><img src="images/logo.png"></a>
         </div>
-        <div>
-            <ul class="navbar_menu">
-                <li><a href="#blog">BLOG</a></li>
-                <li><a href="#blog">CONTACTO</a></li>
-            </ul>
+        <div class="navbar_menu">
+            <div>
+                <ul>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#blog">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div class="icons_menu">
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                <a href="#"><i class='bx bx-user-circle'></i></a>
+            </div>
         </div>
 
-        <div class="icons_menu">
-            <a href="#"><i class='bx bx-shopping-bag'></i></a>
-            <a href="#"><i class='bx bx-user-circle'></i></a>
+        <!--<header>
 
-            <div class="bx bx-menu" id="icon_menu"></div>
-        </div>
+            <div>
+                <a href="#" class="logo_landing"><img src="images/logo.png"></a>
+            </div>
+
+            <div class="navbar_menu">
+                <ul>
+                    <li><a href="#home">INICIO</a></li>
+                    <li><a href="#aboutus">NOSOTROS</a></li>
+                    <li><a href="#bestseller">CATALOGO</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#blog">CONTACTO</a></li>
+                </ul>
+            </div>
+    
+            <div class="icons_menu">
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                <a href="#"><i class='bx bx-user-circle'></i></a>
+            </div>-->
+
+
+
     </header>
     <main>
         <section class="jumbotron">
             <div class="jumbotron_texto">
-                <h4>El camino de las letras y aventuras extraordinarias</h4>
-                <h1>Vellichor & Co.</h1>
-                <p>Somos una bookstore que vende más que libros.
-                    <br>
-                    <br>
-                    Tenemos aventura mezclada con fantasia y romance.
-                    <br>
-                    También un poco de horror entrezalado con un misterio sin resolver.
-                    <br>
-                    Todo esto a través de las voces de los mejores autores.
-                    <br>
-                    <br>
-                    Puedes unirte a nuestro <strong>club literario</strong> si dejas tu correo a continuación
-                </p>
-                <form>
-                    <input type="email" name="email" id="email" placeholder="Ingresa tu correo para empezar...">
-                    <button class="jumbotron__btn btn" input type="submit" name="submit"
-                        value="Send">Suscribeme!</button>
-                </form>
+                <div>
+                    <h4>El camino de las letras y aventuras extraordinarias</h4>
+                    <h1>Vellichor & Co.</h1>
+                    <p>Somos una bookstore que vende más que libros.
+                        <br>
+                        <br>
+                        Tenemos aventura mezclada con fantasia y romance.
+                        <br>
+                        También un poco de horror entrezalado con un misterio sin resolver.
+                        <br>
+                        Todo esto a través de las voces de los mejores autores.
+                        <br>
+                        <br>
+                        Puedes unirte a nuestro <strong>club literario</strong> si dejas tu correo a continuación
+                    </p>
+                </div>
+                <div class="jumbotron_texto">
+                    <form>
+                        <input type="email" name="email" id="email" placeholder="Ingresa tu correo para empezar...">
+                        <button class="jumbotron__btn btn" input type="submit" name="submit"
+                            value="Send">Suscribeme!</button>
+                    </form>
+                </div>
             </div>
         </section>
         <section class="best-sellers" id="best-sellers">
@@ -265,6 +292,7 @@
             </article>
             <article>
                 <div class="bnf_card">
+
                     <div class="card-tipo2">
                         <img src="images/descuentos.png" alt="#">
                         <div class="titulo-beneficio">
@@ -307,6 +335,7 @@
                         <div class="info-beneficio">
                             <p>Cupones de despacho express, en 24 hrs. llega tu libro</p>
                         </div>
+
                     </div>
             </article>
         </section>
