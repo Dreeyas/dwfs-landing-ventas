@@ -13,7 +13,7 @@
 
 .item_card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 32px;
 
 }

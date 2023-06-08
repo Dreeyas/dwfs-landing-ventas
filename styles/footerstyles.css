@@ -1,6 +1,11 @@
+section{
+    padding: 5% 10%;
+}
 .contacto{
     background-color: var(--clr-light);
     padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .informacion_contacto{
     display: grid;
@@ -32,6 +37,11 @@
 .bloque1 img{
     width: 150px;
     height: auto;
+}
+
+
+.bloque1 p{
+   font-size: 12px;
 }
 
 .bloque4 ul li img{
