@@ -59,9 +59,3 @@ padding: 10px;
     color: var(--clr-darkrose);
 }
 
-#icon_menu{
-    color: var(--clr-dark);
-    font-size: 35px;
-    cursor: pointer;
-
-}

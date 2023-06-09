@@ -1,16 +1,20 @@
 @media screen and (max-width: 1000px) {
 
     header {
-        height: auto;
+        padding: 0%;
+        width: auto;
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        padding: 5px;
+        justify-content: space-between;
+        padding: 0%;
+    }
+
+    .navbar_menu {
+        flex-direction: column;
 
     }
 
     .navbar_menu ul {
-        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
@@ -18,22 +22,14 @@
 
     }
 
-
     .navbar_menu a {
         padding: 5%;
-
-    }
-
-    .navbar_menu {
-
-        flex-direction: column;
 
     }
 
     .jumbotron {
         height: fit-content;
         display: flex;
-        align-items: center;
         justify-content: center;
         padding: 50px;
 
@@ -62,14 +58,17 @@
         padding: 20px;
     }
 
-    header {
-        padding: 0%;
-        width: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0%;
+
+    .best-sellers {
+        padding-bottom: 10%;
     }
+
+    .item_card {
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -117,27 +116,102 @@
 
     }
 
+
+    .bs-titulo h2 {
+        font-size: 40px;
+
+    }
+
 }
 
 @media screen and (max-width: 430px) {
 
+    /*Seccion Header*/
     header {
         justify-content: space-around;
-
 
     }
 
     .logo_landing {
         display: none;
     }
-    .jumbotron{
-            width: auto;
-            height: auto;
-            background-image: url(../images/hero.png);
-            background-position: center;
-            background-size: cover;
-            display: flex;
-        
-        } 
+/*Seccion jumbotron*/
+
+    .jumbotron {
+        width: auto;
+        height: auto;
+        display: flex;
+
+    }
+
+/*Seccion productos*/
+    .best-sellers {
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    .bs-titulo h2 {
+        font-size: 30px;
+    }
+
+    .item_card {
+        grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
+
+    }
+
+    .descripción-libro h4 {
+        font-size: 15px;
+    }
+
+    .clasificación-producto{
+        display: none;
+
+    }
+
+    .producto-info {
+        font-size: 12px;
+
+    }
+
+/*Seccion beneficios*/
+
+    .bnf-titulo-principal h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bnf-explicacion {
+        font-size: 15px;
+
+    }
+    
+/*Seccion Footer*/
+
+    .contacto{
+        padding-top: 5%px;
+        padding-right: 2%;
+        padding-left: 2px;
+    }
+
+    .informacion_contacto{
+        grid-template-rows: repeat(auto-fit, minmax(50px, auto));
+        padding-right: 3%;
+        padding-left: 3%;
+        gap: 4%;
     
     }
+
+    .informacion_contacto h3{
+        font-size: 25px;
+    }
+
+
+    .bloque1 img{
+        display: none;
+    }
+
+    .bloque4 ul li img{
+            height: 60px;
+            width: 100px;
+        }
+}
