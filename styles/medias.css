@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 
     header {
         padding: 0%;
@@ -71,7 +71,7 @@
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
     .jumbotron {
         height: auto;
@@ -126,7 +126,6 @@
 
 @media screen and (max-width: 430px) {
 
-    /*Seccion Header*/
     header {
         justify-content: space-around;
 
@@ -135,7 +134,7 @@
     .logo_landing {
         display: none;
     }
-/*Seccion jumbotron*/
+
 
     .jumbotron {
         width: auto;
@@ -144,7 +143,6 @@
 
     }
 
-/*Seccion productos*/
     .best-sellers {
         padding-bottom: 10%;
         padding-top: 10%;
@@ -163,7 +161,7 @@
         font-size: 15px;
     }
 
-    .clasificación-producto{
+    .clasificación-producto {
         display: none;
 
     }
@@ -173,7 +171,31 @@
 
     }
 
-/*Seccion beneficios*/
+
+    .club_image {
+        padding-bottom: 20px;
+    }
+
+    .club_image img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .club_title h3 {
+        font-size: 40px;
+    }
+
+
+    .club_info {
+        font-size: 15px;
+    }
+
+    .club-medias i {
+        font-size: 20px;
+
+    }
+
+
 
     .bnf-titulo-principal h3 {
         font-size: 30px;
@@ -184,34 +206,33 @@
         font-size: 15px;
 
     }
-    
-/*Seccion Footer*/
 
-    .contacto{
+
+    .contacto {
         padding-top: 5%px;
         padding-right: 2%;
         padding-left: 2px;
     }
 
-    .informacion_contacto{
+    .informacion_contacto {
         grid-template-rows: repeat(auto-fit, minmax(50px, auto));
         padding-right: 3%;
         padding-left: 3%;
         gap: 4%;
-    
+
     }
 
-    .informacion_contacto h3{
+    .informacion_contacto h3 {
         font-size: 25px;
     }
 
 
-    .bloque1 img{
+    .bloque1 img {
         display: none;
     }
 
-    .bloque4 ul li img{
-            height: 60px;
-            width: 100px;
-        }
+    .bloque4 ul li img {
+        height: 60px;
+        width: 100px;
+    }
 }

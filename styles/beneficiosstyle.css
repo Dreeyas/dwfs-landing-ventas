@@ -3,7 +3,7 @@ section{
 }
 
 .beneficios {
-    background-color: var(--clr-light);
+    background-color: #fff5ff;
 
 }
 
@@ -15,7 +15,7 @@ section{
 }
 
 .bnf-titulo-principal h3 {
-    color: var(--clr-darkrose);
+    color: #cc0052;
     font-size: 50px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -36,7 +36,7 @@ section{
 .botones-redes i {
     margin-top: 30px;
     margin-right: 20px;
-    color: var(--clr-darkrose);
+    color: #cc0052;
     font-size: 40px;
     font-weight: 400;
     transition: all 0.5s ease;
@@ -54,7 +54,7 @@ section{
 }
 
 .titulo-beneficio h4 {
-    color: var(--clr-darkrose);
+    color: #cc0052;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -63,7 +63,7 @@ section{
 
 }
 .info-beneficio p{
-    color: var(--clr-dark);
+    color: #030712;
     font-size: 16px;
     font-family:'Zodiak', serif;
     text-align: center;

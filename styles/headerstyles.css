@@ -3,7 +3,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:var(--clr-light);
+    background-color:#fff5ff;
 
 }
 
@@ -31,7 +31,7 @@ padding: 10px;
 }
 
 .navbar_menu a {
-    color: var(--clr-dark);
+    color: #030712;
     font-size: 20px;
     font-weight: 400;
     transition: color 0.3s;
@@ -40,14 +40,14 @@ padding: 10px;
 }
 
 .navbar_menu a:hover {
-    color: var(--clr-darkrose);
+    color: #cc0052;
     letter-spacing: 2px;
 }
 
 
 .icons_menu i {
 
-    color: var(--clr-dark);
+    color: #030712;
     font-size: 25px;
     font-weight: 400;
     transition: all 0.5s ease;
@@ -56,6 +56,6 @@ padding: 10px;
 
 .icons_menu i:hover {
     transform: scale(1.1);
-    color: var(--clr-darkrose);
+    color: #cc0052;
 }
 

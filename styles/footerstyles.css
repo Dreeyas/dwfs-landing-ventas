@@ -2,7 +2,7 @@ section{
     padding: 5% 10%;
 }
 .contacto{
-    background-color: var(--clr-light);
+    background-color: #fff5ff;
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
@@ -14,13 +14,13 @@ section{
 
 }
 .informacion_contacto h3{
-    color: var(--clr-darkrose);
+    color: #cc0052;
     font-size: 30px;
     margin-bottom: 14px;
     font-family: 'Dancing Script', cursive;
 }
 .informacion_contacto a{
-    color: var(--clr-dark);
+    color: #030712;
     font-size: 15px;
     font-family: 'Zodiak', serif;
     font-weight: 400;
@@ -31,7 +31,7 @@ section{
     transition: all 0.5s ease;
 }
 .informacion_contacto a:hover {
-    color: var(--clr-darkrose);
+    color: #cc0052;
     letter-spacing: 2px;}
 
 .bloque1 img{

@@ -1,10 +1,10 @@
 .best-sellers{
-    background-color: var(--clr-light);
+    background-color: #fff5ff;
 }
 
 
 .bs-titulo h2 {
-    color: var(--clr-darkrose);
+    color: #cc0052;
     font-size: 50px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -35,7 +35,7 @@
 }
 
 .descripción-libro h4 {
-    color: var(--clr-darkrose);
+    color: #cc0052;
     font-family: 'Zodiak', serif;
     font-weight: 600;
     font-size: 20px;
@@ -49,13 +49,13 @@
     right: 0;
     font-size: 15px;
     font-family: 'Zodiak', serif;
-    color: var(--clr-darkrose);
+    color: #cc0052;
 
 }
 
 .producto-info {
     font-family: 'Zodiak', serif;
-    color: var(--clr-dark);
+    color: #030712;
     font-size: 15px;
     font-weight: 600;
 }
