@@ -25,6 +25,6 @@ Puedes ver un preview en vivo copiando y pegando este link en tu buscador:
 
 `https://dreeyas.github.io/dwfs-landing-ventas/`
 
-Puedes clonar este repositorio y utilizar el código clonando el repositorio en tu máquina local usando:
+Puedes acceder al código clonando el repositorio en tu máquina local usando:
 
 `git clone https://github.com/Dreeyas/dwfs-landing-ventas.git`
